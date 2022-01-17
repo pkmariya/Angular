@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'compInteraction';
+  public msgToChild = "Message from App Component to Child!"
+  public incomingMsg = ""
 }
